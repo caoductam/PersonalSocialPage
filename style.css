@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    background: linear-gradient(135deg, #1e47a7 80%, #6288e3 100%);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 35px 30px 35px;
+    gap: 25px;
+    margin: 0 15px;
+    box-shadow: 0 8px 32px 0 rgba(30, 71, 167, 0.18);
+    transition: box-shadow 0.2s;
+}
+
+.container:hover {
+    box-shadow: 0 12px 40px 0 rgba(30, 71, 167, 0.28);
+}
+
+.container img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    object-fit: fill;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 16px rgba(30, 71, 167, 0.15);
+    transition: transform 0.2s;
+}
+
+.container img:hover {
+    transform: scale(1.06) rotate(-2deg);
+    box-shadow: 0 8px 32px rgba(30, 71, 167, 0.25);
+}
+
+.information-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.information-container h1 {
+    font-size: 2.1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.information-container h3 {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #c7d6f7;
+}
+
+.information-container p {
+    font-size: 1rem;
+    color: #e0e7ff;
+    margin-top: 2px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.buttons-container a {
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #2563eb 60%, #3b82f6 100%);
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    border: 2px solid #3b82f6;
+    /* Viền xanh nhạt hơn */
+    box-shadow: 0 4px 16px rgba(30, 71, 167, 0.10);
+    transition:
+        background 0.18s,
+        color 0.18s,
+        transform 0.15s,
+        box-shadow 0.18s,
+        border 0.18s;
+    outline: none;
+    text-shadow: 0 1px 2px rgba(30, 71, 167, 0.10);
+}
+
+.buttons-container a:hover {
+    background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
+    color: #1e47a7;
+    border: 2px solid #fff;
+    box-shadow: 0 8px 24px rgba(30, 71, 167, 0.18);
+    transform: translateY(-2px) scale(1.04);
+    text-shadow: none;
+}
+
+.buttons-container a i {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        padding: 25px 10px;
+        border-radius: 14px;
+    }
+
+    .information-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .buttons-container a {
+        font-size: 0.98rem;
+        padding: 12px 0;
+    }
+}
