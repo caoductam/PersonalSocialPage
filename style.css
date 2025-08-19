@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* Thiết lập cơ bản và reset CSS */
 * {
@@ -15,7 +15,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center; /* Giữ căn giữa cho desktop */
+    align-items: center;
+    /* Giữ căn giữa cho desktop */
     background-color: #f0f0f0;
     padding: 15px;
 }
@@ -23,7 +24,7 @@ body {
 .container {
     width: 100%;
     max-width: 420px;
-    background: linear-gradient(135deg, #1e47a7 80%, #6288e3 100%);
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
     border-radius: 20px;
     color: white;
     display: flex;
@@ -72,7 +73,7 @@ body {
 .information-container h3 {
     font-weight: 500;
     font-size: 1.1rem;
-    color: #c7d6f7;
+    color: #a0aec0;
 }
 
 .information-container p {
@@ -94,7 +95,7 @@ body {
     width: 100%;
     padding: 15px 10px;
     border-radius: 12px;
-    background: linear-gradient(90deg, #2563eb 60%, #3b82f6 100%);
+    background: linear-gradient(90deg, #38b2ac 0%, #4fd1c5 100%);
     color: #fff;
     font-weight: 800;
     font-size: 1.1rem;
@@ -107,9 +108,10 @@ body {
 }
 
 .buttons-container a:hover {
-    background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
-    color: #1e47a7;
-    border-color: #fff;
+    background: linear-gradient(90deg, #4fd1c5 0%, #81e6d9 100%);
+    color: #2d3748;
+    /* Màu chữ khi hover */
+    border-color: #81e6d9;
     box-shadow: 0 8px 24px rgba(30, 71, 167, 0.18);
     transform: translateY(-2px) scale(1.04);
     text-shadow: none;
@@ -123,15 +125,20 @@ body {
 @media screen and (max-width: 480px) {
     body {
         /* Cho phép container co giãn theo chiều cao */
-        align-items: flex-start; 
-        padding: 0; /* Reset padding để container chiếm toàn bộ màn hình */
+        align-items: flex-start;
+        padding: 0;
+        /* Reset padding để container chiếm toàn bộ màn hình */
     }
 
     .container {
-        min-height: 100vh; /* Chiếm toàn bộ chiều cao màn hình */
-        border-radius: 0; /* Bỏ bo góc khi toàn màn hình */
-        max-width: none; /* Bỏ giới hạn chiều rộng */
-        justify-content: center; /* Căn giữa nội dung bên trong container */
+        min-height: 100vh;
+        /* Chiếm toàn bộ chiều cao màn hình */
+        border-radius: 0;
+        /* Bỏ bo góc khi toàn màn hình */
+        max-width: none;
+        /* Bỏ giới hạn chiều rộng */
+        justify-content: center;
+        /* Căn giữa nội dung bên trong container */
     }
 
     .information-container h1 {
@@ -147,7 +154,8 @@ body {
     }
 
     .buttons-container {
-        padding: 0 25px; /* Thêm padding để các nút không dính vào cạnh */
+        padding: 0 25px;
+        /* Thêm padding để các nút không dính vào cạnh */
     }
 
     .buttons-container a {
