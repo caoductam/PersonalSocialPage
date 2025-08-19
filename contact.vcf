@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Cao Duc Tam
+N:Tam;Cao;Duc;;
+TITLE:IT Student
+TEL;TYPE=CELL;TYPE=VOICE;TYPE=pref:+84837615777
+EMAIL:ductam2024@gmail.com
+ADR;TYPE=HOME:;;;Da Nang;;;Viet Nam
+URL:https://your-website-url.com
+END:VCARD
