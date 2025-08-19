@@ -109,8 +109,7 @@ body {
 
 .buttons-container a:hover {
     background: #4a5568;
-    color: #e2e8f0;
-    /* Màu chữ khi hover */
+    color: #e2e8f0; /* Màu chữ khi hover */
     border-color: #718096;
     box-shadow: 0 8px 24px rgba(30, 71, 167, 0.18);
     transform: translateY(-2px) scale(1.04);
@@ -164,46 +163,3 @@ body {
     }
 }
 
-
-/* Dán đoạn mã này vào cuối file style.css của bạn */
-
-.contact-details {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 20px;
-    /* Tạo khoảng cách với các nút ở trên */
-    padding-top: 20px;
-    /* Tạo khoảng cách với đường kẻ */
-    border-top: 1px solid #4a5568;
-    /* Đường kẻ ngang để phân tách */
-    width: 100%;
-    align-items: center;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.contact-item i {
-    color: #a0aec0;
-    /* Màu icon xám nhạt */
-    font-size: 1rem;
-}
-
-.contact-item a {
-    color: #e2e8f0;
-    /* Màu chữ sáng */
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: color 0.2s;
-}
-
-.contact-item a:hover {
-    color: #ffffff;
-    /* Sáng hơn khi hover */
-    text-decoration: underline;
-}
