@@ -24,7 +24,7 @@ body {
 .container {
     width: 100%;
     max-width: 420px;
-    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+    background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
     border-radius: 20px;
     color: white;
     display: flex;
@@ -73,7 +73,7 @@ body {
 .information-container h3 {
     font-weight: 500;
     font-size: 1.1rem;
-    color: #a0aec0;
+    color: #718096;
 }
 
 .information-container p {
@@ -95,12 +95,12 @@ body {
     width: 100%;
     padding: 15px 10px;
     border-radius: 12px;
-    background: linear-gradient(90deg, #38b2ac 0%, #4fd1c5 100%);
+    background: #2d3748;
     color: #fff;
     font-weight: 800;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
-    border: 2px solid #3b82f6;
+    border: 2px solid #4a5568;
     box-shadow: 0 4px 16px rgba(30, 71, 167, 0.10);
     transition: all 0.2s ease-in-out;
     outline: none;
@@ -108,10 +108,9 @@ body {
 }
 
 .buttons-container a:hover {
-    background: linear-gradient(90deg, #4fd1c5 0%, #81e6d9 100%);
-    color: #2d3748;
-    /* Màu chữ khi hover */
-    border-color: #81e6d9;
+    background: #4a5568;
+    color: #e2e8f0; /* Màu chữ khi hover */
+    border-color: #718096;
     box-shadow: 0 8px 24px rgba(30, 71, 167, 0.18);
     transform: translateY(-2px) scale(1.04);
     text-shadow: none;
